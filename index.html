@@ -71,8 +71,8 @@
 <body>
   <header>
     <div class="options">
-      <div>最小字数：<input id="min" type="range" min="500" max="5000" step="100" value="2000"><span>2000</span></div>
-      <div>最大字数：<input id="max" type="range" min="1000" max="10000" step="100" value="5000"><span>5000</span></div>
+      <div>MINCount: <input id="min" type="range" min="500" max="5000" step="100" value="2000"><span>2000</span></div>
+      <div>MAXCount: <input id="max" type="range" min="1000" max="10000" step="100" value="5000"><span>5000</span></div>
     </div>
     <div class="ref"><a href="https://github.com/menzi11/BullshitGenerator">Original Edition</a></div>
     <div class="title"><span>Title:</span><input id="title" type="text" value="">
@@ -83,7 +83,7 @@
   <main>
     <article></article>
   </main>
-  <footer>The improved version used on this page:<a href="https://github.com/akira-cn/bullshit-generator-js">bullshit-generator-js</a> Code Author: 月影</footer>
+  <footer>The improved version used on this page: <a href="https://github.com/akira-cn/bullshit-generator-js">bullshit-generator-js</a> Code Author: 月影</footer>
   <script type="module">
     import {generate} from './lib/generator.js';
     import {createRandomPicker} from './lib/random.js';
